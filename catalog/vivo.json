@@ -115,7 +115,7 @@
     "stock_basics": {
       "title": "Stock SMS, dialer, file manager, gallery, keyboard (install replacements first!)",
       "packages": [
-        "com.android.mms", "com.android.dialer", "com.android.filemanager", "com.vivo.gallery",
+        "com.android.mms", "com.android.dialer", "com.android.contacts", "com.android.filemanager", "com.vivo.gallery",
         "com.sohu.inputmethod.sogou.vivo", "com.vivo.videoeditor"
       ]
     },
