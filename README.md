@@ -64,13 +64,12 @@ vivo shows an **"Install" confirmation on the phone for every `adb install`**; k
 ## Open-source replacements (`replacements`)
 
 From f-droid.org: Fennec (browser), Fossify Messages / Phone / Gallery / File Manager,
-Simple Keyboard, Olauncher (minimal launcher). The tool installs them and assigns the default SMS, dialer
-and browser roles. The launcher needs one more manual step, because vivo's launcher keeps priority:
-`adb shell pm disable-user --user 0 com.bbk.launcher2`, then `adb shell cmd role add-role-holder
---user 0 android.app.role.HOME app.olauncher`.
+Simple Keyboard. The tool installs them and assigns the default SMS, dialer
+and browser roles.
 
 ## Warnings
 
+* **Do not replace or disable the vivo launcher (`com.bbk.launcher2`).** The bottom swipe gestures (home, recents) are implemented inside it; with a third-party launcher only the back gesture keeps working.
 * Removing Google Play Services breaks push notifications of Google-dependent apps (Instagram, WhatsApp, X, ...).
   Chinese apps use vivo's push service, which is on the protected list.
 * Removing the stock keyboard/browser/SMS/dialer before installing replacements leaves you without them.

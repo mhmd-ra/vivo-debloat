@@ -33,7 +33,6 @@ REPLACEMENTS = {
     "gallery":  ("org.fossify.gallery", "Fossify Gallery", None),
     "files":    ("org.fossify.filemanager", "Fossify File Manager", None),
     "keyboard": ("rkr.simplekeyboard.inputmethod", "Simple Keyboard", None),
-    "launcher": ("app.olauncher", "Olauncher (minimal text launcher)", "android.app.role.HOME"),
 }
 # Categories that remove a core function: warn unless a replacement is installed.
 RISKY = {
@@ -323,9 +322,6 @@ def cmd_replacements(args):
                 adb.shell("ime", "enable", ime, check=False)
                 adb.shell("ime", "set", ime, check=False)
         if role:
-            if role.endswith("HOME"):
-                print("  Note: vivo's stock launcher keeps priority; disable it with:"
-                      "  adb shell pm disable-user --user 0 com.bbk.launcher2  (after Olauncher is set)")
             print("  set default:", adb.shell("cmd", "role", "add-role-holder", "--user", "0", role, pkg, check=False) or "ok")
 
 
