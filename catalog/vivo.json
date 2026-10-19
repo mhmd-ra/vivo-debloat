@@ -1,0 +1,144 @@
+{
+  "_comment": "Package catalog for vivo / iQOO phones (Funtouch OS 11/12, China ROM). Tested on iQOO Neo V1824BA (Android 11). Every entry is removed only for user 0 and can be restored.",
+  "categories": {
+    "preinstalled_apps": {
+      "title": "Preinstalled third-party apps (shopping, video, news, travel, maps)",
+      "packages": [
+        "com.qiyi.video", "com.sankuai.meituan", "com.baidu.carlife.vivo", "com.wuba",
+        "com.tencent.qqlive", "com.xunmeng.pinduoduo", "com.ss.android.article.news",
+        "com.ximalaya.ting.android", "com.Qunar", "com.autonavi.minimap", "com.baidu.haokan",
+        "com.taobao.taobao", "com.eg.android.AlipayGphone", "com.achievo.vipshop",
+        "com.baidu.searchbox", "com.chaozh.iReader", "com.yozo.vivo.office"
+      ]
+    },
+    "chinese_social": {
+      "title": "Chinese social apps (WeChat, Weibo, Xiaohongshu, Douyin)",
+      "packages": ["com.tencent.mm", "com.sina.weibo", "com.xingin.xhs", "com.ss.android.ugc.aweme"]
+    },
+    "games_wallpapers": {
+      "title": "Games, game tools and live wallpapers",
+      "packages": [
+        "com.vivo.game", "com.vivo.gamecube", "com.vivo.gametrain", "com.vivo.gamewatch",
+        "com.vivo.livewallpaper.behavior", "com.vivo.livewallpaper.behavioriqoo",
+        "com.vivo.livewallpaper.coffeetime", "com.vivo.livewallpaper.coralsea",
+        "com.vivo.livewallpaper.galaxy", "com.vivo.livewallpaper.monster",
+        "com.vivo.livewallpaper.silk", "com.vlife.vivo.wallpaper", "com.vivo.magazine",
+        "com.vivo.dream.clock", "com.vivo.dream.music", "com.vivo.dream.weather"
+      ]
+    },
+    "vivo_apps": {
+      "title": "vivo utility apps (weather, notes, music, video, health, wallet, tips...)",
+      "packages": [
+        "com.vivo.weather", "com.vivo.weather.provider", "com.vivo.widgetweather",
+        "com.android.notes", "com.android.bbkmusic", "com.android.VideoPlayer",
+        "com.vivo.videoeditor", "com.vivo.health", "com.vivo.wallet", "com.vivo.quickpay",
+        "com.vivo.space", "com.vivo.compass", "com.android.bbksoundrecorder",
+        "com.bbk.calendar", "com.vivo.email", "com.vivo.easyshare", "com.vivo.Tips",
+        "com.vivo.scanner", "com.vivo.vivokaraoke", "com.vivo.numbermark", "com.vivo.sos",
+        "com.android.egg", "com.android.bbkcalculator", "com.vivo.childrenmode",
+        "com.vivo.familycare.local", "com.vivo.doubleinstance", "com.bbk.theme",
+        "com.vivo.findphone", "com.bbk.appstore", "com.vivo.share"
+      ]
+    },
+    "widgets_search": {
+      "title": "Widgets, global search, smart scene, minus-one screen",
+      "packages": [
+        "com.vivo.hiboard", "com.vivo.globalsearch", "com.vivo.puresearch", "com.vivo.hybrid",
+        "com.vivo.smartLife", "com.vivo.vhomeguide", "com.vivo.desktopstickers",
+        "com.vivo.widget.calendar", "com.vivo.widget.cleanspeed", "com.vivo.widget.gallery",
+        "com.vivo.widget.timemanager", "com.vivo.musicwidgetmix", "com.vivo.timerwidget",
+        "com.bbk.photoframewidget", "com.vivo.favorite", "com.vivo.minscreen",
+        "com.vivo.video.floating", "com.vivo.upnpserver", "com.vivo.iotserver"
+      ]
+    },
+    "ai_voice": {
+      "title": "Jovi / AI / voice / smart-shot services",
+      "packages": [
+        "com.vivo.agent", "com.vivo.assistant", "com.vivo.aitranslate", "com.vivo.smartanswer",
+        "com.vivo.aiengine", "com.vivo.aiservice", "com.vivo.voicewakeup",
+        "com.iflytek.speechsuite", "com.vivo.contentcatcher", "com.vivo.multinlp",
+        "com.vivo.upslide", "com.vivo.motionrecognition", "com.vivo.smartshot",
+        "com.vivo.smartunlock"
+      ]
+    },
+    "car_iot": {
+      "title": "Car mode, roaming, eSIM/ID and misc connectivity extras",
+      "packages": [
+        "com.vivo.carlauncher", "com.vivo.car.networking", "com.vivo.fuelsummary",
+        "com.mobile.iroaming", "com.mobile.cos.iroaming", "com.ringclip", "com.rongcard.eid",
+        "com.vivo.carrierlocation", "com.baidu.map.location", "com.android.vendors.bridge.softsim",
+        "com.android.vivo.tws.vivotws", "com.vivo.vibrator4d", "com.vivo.vivolight"
+      ]
+    },
+    "telemetry_engineering": {
+      "title": "Logging, feedback, telemetry, factory/engineering tools",
+      "packages": [
+        "com.bbk.iqoo.feedback", "com.vivo.ewarranty", "com.android.bbklog",
+        "com.bbk.iqoo.logsystem", "com.iqoo.engineermode", "com.vivo.bsptest",
+        "com.vivo.fingerprintengineer", "com.vivo.wifiengineermode",
+        "com.vivotouchscreen.sensortestsyna3706", "com.vivotouchscreen.synadeltadiff",
+        "com.vivo.vivoconsole", "com.vivo.epm", "com.vivo.pem", "com.vivo.abe", "com.vivo.dr",
+        "com.vivo.vms", "com.vivo.sps", "com.vivo.sdkplugin", "com.vivo.deformer",
+        "com.tencent.soter.soterserver", "com.bbk.cloud"
+      ]
+    },
+    "google": {
+      "title": "Google services (Play Services, Play Store, GSF, sync adapters)",
+      "note": "Keep com.google.android.webview - many apps need it. Removing Play Services breaks push notifications of Google-dependent apps (Instagram, WhatsApp, X...).",
+      "packages": [
+        "com.android.vending", "com.google.android.gms", "com.google.android.gsf",
+        "com.google.android.configupdater", "com.google.android.ext.shared",
+        "com.google.android.syncadapters.calendar", "com.google.android.syncadapters.contacts",
+        "com.google.android.overlay.gmsconfig.common", "com.google.android.onetimeinitializer",
+        "com.google.android.printservice.recommendation", "com.google.android.marvin.talkback",
+        "com.google.ar.core"
+      ]
+    },
+    "system_extras": {
+      "title": "Printing, backup, gestures, misc AOSP/vivo extras",
+      "packages": [
+        "com.android.bips", "com.android.printspooler", "com.android.htmlviewer",
+        "com.android.apps.tag", "com.android.stk", "com.android.simappdialog",
+        "com.android.wallpaperbackup", "com.android.dynsystem", "com.android.bluetoothmidiservice",
+        "com.android.nfc.tests", "com.android.calllogbackup", "com.android.sharedstoragebackup",
+        "com.android.backupconfirm", "com.android.carrierdefaultapp",
+        "com.android.systemui.plugin.globalactions.wallet", "com.vivo.floatingball",
+        "com.vivo.shortcutcenter", "com.vivo.SmartKey", "com.ndt.sidekey", "com.vivo.audiofx",
+        "com.vivo.singularity",
+        "com.vivo.smartmultiwindow", "com.vivo.vtouch", "com.vivo.sim.contacts"
+      ]
+    },
+    "browsers": {
+      "title": "Stock browsers (install a replacement first!)",
+      "packages": ["com.vivo.browser", "com.android.browser"]
+    },
+    "stock_basics": {
+      "title": "Stock SMS, dialer, file manager, gallery, keyboard (install replacements first!)",
+      "packages": [
+        "com.android.mms", "com.android.dialer", "com.android.filemanager", "com.vivo.gallery",
+        "com.sohu.inputmethod.sogou.vivo", "com.vivo.videoeditor"
+      ]
+    },
+    "face_unlock": {
+      "title": "Face unlock (fingerprint/PIN keep working)",
+      "packages": ["com.vivo.faceui", "com.vivo.faceunlock", "com.bbk.facewake"]
+    }
+  },
+  "protected": [
+    "android", "com.android.systemui", "com.android.settings", "com.android.phone",
+    "com.android.server.telecom", "com.android.incallui", "com.android.providers.telephony",
+    "com.android.providers.contacts", "com.android.providers.media", "com.android.providers.media.module",
+    "com.android.providers.settings", "com.android.providers.downloads", "com.android.packageinstaller",
+    "com.android.permissioncontroller", "com.android.bluetooth", "com.android.nfc",
+    "com.android.inputdevices", "com.android.externalstorage", "com.android.keychain",
+    "com.android.networkstack.inprocess", "com.android.networkstack.tethering.inprocess",
+    "com.android.location.fused", "com.android.certinstaller", "com.android.vpndialogs",
+    "com.android.captiveportallogin", "com.android.carrierconfig", "com.android.ons",
+    "com.android.mms.service", "com.android.smspush", "com.android.cellbroadcastservice",
+    "com.google.android.webview", "com.bbk.launcher2", "com.android.bbk.lockscreen3",
+    "com.vivo.pushservice", "com.vivo.safecenter", "com.iqoo.secure", "com.vivo.permissionmanager",
+    "com.vivo.appfilter", "com.vivo.fingerprint", "com.vivo.fingerprintui", "com.vivo.cipherchain",
+    "com.vivo.daemonService", "com.funtouch.uiengine", "com.bbk.account", "com.bbk.updater",
+    "com.vivo.nightpearl", "com.android.BBKClock", "com.android.BBKCrontab"
+  ]
+}

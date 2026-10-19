@@ -1,0 +1,4 @@
+platform-tools/
+downloads/
+debloat-log-*.json
+__pycache__/
